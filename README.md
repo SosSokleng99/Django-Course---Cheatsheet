@@ -9,9 +9,8 @@ git remote add origin "REMOTE-URL-GitHub"
 ```
 ## 5. To verify that you set the remote URL correctly, run the following command.
 ```bash
-git remote add origin "REMOTE-URL-GitHub"
+git remote -v
 ```
-    `git remote -v`
 
 ## 6. Create NEW-BRANCH on GitHub Repos to push code to.
 ```bash
