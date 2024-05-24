@@ -31,3 +31,27 @@ py -3 -m pip install django~=4.2
 # Windows
 py -3 -m django --version
 ```
+
+```bash
+# Windows
+py -3 -m django --version
+```
+
+# Create Django Project
+### After you got Django Module installed in your Computer now it is time to create the Project:
+1. Create a Folder to store the project.
+2. Create [Virtual Enviroment](https://github.com/SosSokleng99/Github-Cheatsheet/blob/main/setup_dajngo.md#setup-python-virtual-environment-for-best-development-experince).
+3. Activate the Virtual Enviroment.
+4. To create Django Project, run:
+```bash
+# Windows
+py -3 -m django startproject project_name
+```
+
+# Create a Django App
+
+### After you create Django Project, we need to create a APP inside Django Project which is one of many feature for the Project:
+```bash
+# Windows
+py -3 manage.py startapp app_name
+```
