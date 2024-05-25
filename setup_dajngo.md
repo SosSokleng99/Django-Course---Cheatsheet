@@ -29,7 +29,7 @@ pip3 install django~=4.2
 
 ```bash
 # Windows
-python3 django --version
+django-admin --version
 ```
 
 # Create Django Project
