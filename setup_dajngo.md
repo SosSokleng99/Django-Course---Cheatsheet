@@ -9,9 +9,14 @@ py -3 -m venv venv_name
 
 ### To activate the environment, run: (If you can not activate the virtual enviroment, you need to Kill the Terminal and type in below command again)
 
-> To activate the environment, run:
+> To Activate the environment, run:
 ```bash
 venv_name\Scripts\activate.bat
+```
+
+> To Deactivate the environment, run:
+```bash
+venv_name\Scripts\deactivate.bat
 ```
 
 #### The virtual environment will be activated and you’ll see “(venv_name)” next to the command prompt to designate that. Each time you start a new command prompt, you’ll need to activate the environment again.
