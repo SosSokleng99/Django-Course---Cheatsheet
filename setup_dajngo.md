@@ -22,19 +22,14 @@ venv_name\Scripts\activate.bat
 
 ```bash
 # Windows
-py -3 -m pip install django~=4.2
+pip3 install django~=4.2
 ```
 
 ### You can test that Django is installed by running the following command (this just tests that Python can find the Django module):
 
 ```bash
 # Windows
-py -3 -m django --version
-```
-
-```bash
-# Windows
-py -3 -m django --version
+python3 django --version
 ```
 
 # Create Django Project
@@ -45,7 +40,7 @@ py -3 -m django --version
 4. To create Django Project, run:
 ```bash
 # Windows
-py -3 -m django startproject project_name
+python3 django startproject project_name
 ```
 
 # Create a Django App
@@ -53,5 +48,12 @@ py -3 -m django startproject project_name
 ### After you create Django Project, we need to create a APP inside Django Project which is one of many feature for the Project:
 ```bash
 # Windows
-py -3 manage.py startapp app_name
+python3 manage.py startapp app_name
+```
+
+> Start Django Server, run:
+```bash
+python3 manage.py runserver
+
+#CONTROL + C to stop server
 ```
