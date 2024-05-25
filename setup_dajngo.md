@@ -40,7 +40,7 @@ django-admin --version
 4. To create Django Project, run:
 ```bash
 # Windows
-python3 django startproject project_name
+django-admin startproject project_name
 ```
 
 # Create a Django App
