@@ -7,6 +7,10 @@
 ```bash
 git remote add origin "REMOTE-URL-GitHub"
 ```
+> To Switch from connected Github Repository to another Specific Github Repository URL
+```bash
+git remote set-url origin "REMOTE-URL-GitHub"
+```
 ### 5. To verify that you set the remote URL correctly, run the following command.
 ```bash
 git remote -v
