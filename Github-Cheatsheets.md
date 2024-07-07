@@ -46,6 +46,6 @@ git commit -m "Did Something"
 
 ### 10. Finally, Push the branch to GitHub
 ```bash
-git push origin skeleton_website
+git push origin "BRANCH-NAME"
 ```
 
