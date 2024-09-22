@@ -1,4 +1,8 @@
-# Setup Python Virtual Environment for Best Development Experince
+#Guide to Create Virtual Environment and Setup Django Project:
+
+# 1. Create a Folder in your Computer
+
+# 2.Setting up a Django Development Environment (for Best Development Experince)
 
 ### Python itself comes with venv for managing environments which we will use for this guide. To create a virtual environment for your project, open a new command prompt, navigate to the folder where you want to create your project and then enter the following:
 
@@ -21,7 +25,7 @@ cd venv_name\Scripts\deactivate.bat
 
 #### The virtual environment will be activated and you’ll see “(venv_name)” next to the command prompt to designate that. Each time you start a new command prompt, you’ll need to activate the environment again.
 
-# Installing Django Web Framework
+# 3. Installing Django Web Framework (Library)
 
 ### Once you've created a virtual environment, and activated it, you can use pip3 to install Django.
 
@@ -42,7 +46,7 @@ django-admin --version
 pip3 list
 ```
 
-# Create Django Project
+# 4. Create Django Project
 ### After you got Django Module installed in your Computer now it is time to create the Project:
 1. Create a Folder to store the project.
 2. Create [Virtual Enviroment](https://github.com/SosSokleng99/Github-Cheatsheet/blob/main/setup_dajngo.md#setup-python-virtual-environment-for-best-development-experince).
@@ -53,7 +57,7 @@ pip3 list
 django-admin startproject project_name
 ```
 
-# Create a Django App
+# 4. Setting up Skeleton Website by Create App inside project
 
 ### After you create Django Project, we need to create a APP inside Django Project which is one of many feature for the Project:
 > To create App in Django project, you must enter the Project Folder/Directory:
