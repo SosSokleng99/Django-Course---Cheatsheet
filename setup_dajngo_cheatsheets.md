@@ -36,6 +36,11 @@ pip3 install django~=4.2
 # Windows
 django-admin --version
 ```
+### Or you can list all Package install on Virtual Environment using:
+```bash
+# Window
+pip3 list
+```
 
 # Create Django Project
 ### After you got Django Module installed in your Computer now it is time to create the Project:
