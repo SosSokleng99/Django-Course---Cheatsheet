@@ -56,6 +56,13 @@ django-admin startproject project_name
 # Create a Django App
 
 ### After you create Django Project, we need to create a APP inside Django Project which is one of many feature for the Project:
+> To create App in Django project, you must enter the Project Folder/Directory:
+
+```bash
+# Windows
+cd project_name
+```
+
 ```bash
 # Windows
 python3 manage.py startapp app_name
