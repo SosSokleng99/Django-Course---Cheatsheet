@@ -68,6 +68,16 @@ cd project_name
 python3 manage.py startapp app_name
 ```
 
+> NOTE! Before Start Django Server FOR THE FIRST TIME or after made change to Models.py you must perform what called Database Miratoion my using the follow Commands:
+```bash
+#1. Confirm to project if there is any chanage
+python3 manage.py makemigrations
+
+#2. Commit to project if there is any chanage
+python3 manage.py migrate
+
+```
+
 > Start Django Server, run:
 ```bash
 python3 manage.py runserver
