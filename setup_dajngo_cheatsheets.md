@@ -48,10 +48,13 @@ pip3 list
 
 ## 4. Create Django Project
 ### After you got Django Module installed in your Computer now it is time to create the Project:
+
+#### Prerequisites: To be able to create Django Project you need:
 1. Create a Folder to store the project.
 2. Create [Virtual Enviroment](https://github.com/SosSokleng99/Github-Cheatsheet/blob/main/setup_dajngo.md#setup-python-virtual-environment-for-best-development-experince).
 3. Activate the Virtual Enviroment.
-4. To create Django Project, run:
+4. Installing Django Web Framework (Library)
+5. To create Django Project, run:
 ```bash
 # Windows
 django-admin startproject project_name
