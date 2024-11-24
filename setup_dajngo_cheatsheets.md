@@ -8,7 +8,7 @@
 
 > To create Python Virtual Environment:
 ```bash
-py -3 -m venv venv_name
+python -m venv venv_name
 ```
 
 ### To activate the environment, run: (If you can not activate the virtual enviroment, you need to Kill the Terminal and type in below command again)
